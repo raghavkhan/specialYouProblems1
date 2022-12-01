@@ -1,0 +1,297 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+/* first section(navBar section) */
+
+.navBar{
+    display:flex;
+    font-size:2rem;
+    background-color: #c2255c;
+    color:whitesmoke;
+    justify-content: space-between;
+}
+.start{
+    display:flex;
+    justify-content: flex-start;
+    /* background-color: aliceblue; */
+    /* height:3rem;
+    width:3rem; */
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    /* background-color:aliceblue; */
+}
+.end{
+    display: flex;
+    /* justify-content:space-between; */
+    /* background-color: aliceblue; */
+    gap:3rem;
+
+}
+
+      /* first section // Icons */
+
+      .navbarIcons{
+        height:3rem;
+        width: 3rem;
+    }
+
+/* second section(search and table section) */
+
+.second{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.searchbarContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.searchBar{
+    display: flex;
+    border:4px solid  #ced4da;
+    justify-content: space-between;
+    height:2rem;
+    width:60rem;
+    border-radius: 10rem;
+    /* border: 2px solid #343a40; */
+    background-color: #ced4da;
+    color:#868e96;
+}
+.searchText{
+    color:#212529;
+
+}
+.searchIcon{
+
+}
+
+.handyOptionsContainer{
+    display: flex;
+    justify-content: center;
+    margin-top:2rem;
+}
+.handyOptions{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: whitesmoke;
+    border:4px solid black;
+    width:60rem;
+    padding: 10px;
+    color:#a61e4d;
+
+}
+.option{
+    border:1px solid green;
+    text-align: center;
+    /* padding:20px; */
+}
+
+
+/* third section(carousel section) */
+
+.third{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
+/* fourth section(gifts and text section) */
+.fourth{
+    display:flex;
+    /* border:2px solid red; */
+    justify-content: center;
+    margin-bottom:2rem;
+}
+.text{
+    display:flex;
+    flex-direction:column;
+    /* border: 2px solid yellow; */
+    justify-content: space-around;
+}
+.inText{
+    color:#868e96;
+    font-size:1.4rem;
+}
+
+/* fifth section(circle images and text section) */
+
+.fifth{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.circleImages{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.circleImage{
+    --shape: 50% at 50% 50%;
+    clip-path: circle(var(--shape));
+    height:8rem;
+    width:8rem;
+    /* border:2px solid red; */
+}
+
+
+/* sixth section (trending gifts) */
+.sixth{
+    display:flex;
+    flex-direction: column;
+    /* border:1px solid black; */
+    margin:2rem;
+}
+.upper{
+    display: flex;
+    flex-direction:column;
+    padding:1rem;
+}
+.sixthPara{
+    color:#868e96;
+}
+
+.lower{
+    display:flex;
+    justify-content:space-between;
+    margin:1rem;
+    border-bottom:0.1rem solid black;
+}
+.viewAll{
+    color:#868e96;
+}
+
+
+/* seventh section (best selling)  */
+
+.bestSelling{
+    display:flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    gap:1rem;
+    
+    
+}
+.bestSellingImage{
+    height:20rem;
+    width:20rem;
+    border-radius:1rem;
+}
+.bestSellingImage1{
+    height:24rem;
+}
+.bestSellingImage3{
+    height:22rem;
+}
+.bestSellingImage4{
+    height:22rem;
+}
+
+
+/* eight section (sliderImage)*/
+.imageContainer{
+    display: flex;
+    justify-content: center;
+}
+.imagess1{
+    height:20rem;
+    width:20rem;
+    border:2px solid red;
+}
+.sliderImage1{
+height:100%;
+width:100%;
+object-fit:cover;
+}
+.imagess2{
+    height:20rem;
+    width:20rem;
+    border:2px solid red;
+}
+.sliderImage2{
+height:100%;
+width:100%;
+object-fit:cover;
+}
+
+
+
+
+
+
+
+/* .icons1{
+    height:10rem;
+    width:10rem;
+}
+ .fa-brands{
+    height:100%; //icon doesn't expand !
+    width:100%;
+} 
+.iconSvg{
+    height:10rem;
+    width:10rem;
+} */
+
+
+/* THIS IS  SWIPER CSS */
+
+      .parentContainer {
+        position: relative;
+        height: 50%;
+      }
+
+      .parentContainer {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        /* edited */
+        width: 500px; 
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    
+    
